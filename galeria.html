@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Rancho La Estancia</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="galeria.js" defer></script>
+</head>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Rancho La Estancia</h1>
+        </div>
+        <img src="assets/IMG/3dc451acacf9eecb00e92e33a61a50e3.gif" alt="GIF Izquierda" class="gif-izquierda">
+        <img src="assets/IMG/3dc451acacf9eecb00e92e33a61a50e3.gif" alt="GIF Derecha" class="gif-derecha">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Galería</h2>
+        <div class="galeria">
+            <a href="#" class="imagen" data-imagen="assets/IMG/pexels-jonathanborba-6622955.jpg"><img src="assets/IMG/pexels-jonathanborba-6622955.jpg" alt="Imagen 1"></a>
+            <a href="#" class="imagen" data-imagen="assets/IMG/pexels-kerry-160593-534415.jpg"><img src="assets/IMG/pexels-kerry-160593-534415.jpg" alt="Imagen 2"></a>
+            <a href="#" class="imagen" data-imagen="assets/IMG/pexels-matreding-4394160.jpg"><img src="assets/IMG/pexels-matreding-4394160.jpg" alt="Imagen 3"></a>
+            <a href="#" class="imagen" data-imagen="assets/IMG/pexels-memo-18407890.jpg"><img src="assets/IMG/pexels-memo-18407890.jpg" alt="Imagen 4"></a>
+            <a href="#" class="imagen" data-imagen="assets/IMG/pexels-shotbyrain-3656870.jpg"><img src="assets/IMG/pexels-shotbyrain-3656870.jpg" alt="Imagen 5"></a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Rancho La Estancia</p>
+    </footer>
+    
+    <!-- Ventana Modal -->
+    <div id="modal" class="modal">
+        <span class="cerrar">&times;</span>
+        <a class="prev" onclick="cambiarImagen(-1)">&#10094;</a>
+        <img class="modal-contenido" id="img01">
+        <a class="next" onclick="cambiarImagen(1)">&#10095;</a>
+        <div id="caption"></div>
+    </div>
+
+    <!--<script src="galeria.js"></script> -->
+</body>
+</html>
