@@ -19,9 +19,10 @@ header {
 }
 
 .titulo h1 {
-    font-size: 2em;
+    font-size: 5vw;
     margin: 0;
     padding: 10px 0;
+    text-align: center;
 }
 
 header img.gif-izquierda, header img.gif-derecha {
@@ -266,11 +267,12 @@ input[type="submit"]:hover {
 /* Responsividad para pantallas pequeñas (máximo 720px) */
 @media only screen and (max-width: 720px) {
     .titulo h1 {
-        font-size: 1.5em; /* Ajusta el tamaño de la fuente del título */
+        font-size: 6vw; /* Ajusta el tamaño de la fuente del título */
+        padding: 5px 0;
     }
 
     header img.gif-izquierda, header img.gif-derecha {
-        max-height: 80px; /* Reduce la altura máxima de los GIFs */
+        max-height: 60px; /* Reduce la altura máxima de los GIFs */
     }
 
     nav ul {
@@ -304,11 +306,12 @@ input[type="submit"]:hover {
 /* Responsividad para pantallas medianas (721px a 800px) */
 @media only screen and (min-width: 721px) and (max-width: 800px) {
     .titulo h1 {
-        font-size: 1.75em; /* Ajusta el tamaño de la fuente del título */
+        font-size: 4vw; /* Ajusta el tamaño de la fuente del título */
+        padding: 10px 0;
     }
 
     header img.gif-izquierda, header img.gif-derecha {
-        max-height: 90px; /* Ajusta la altura máxima de los GIFs */
+        max-height: 80px; /* Ajusta la altura máxima de los GIFs */
     }
 
     nav ul {
