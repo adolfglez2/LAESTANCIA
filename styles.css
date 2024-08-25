@@ -274,12 +274,12 @@ input[type="submit"]:hover {
     }
 
     nav ul {
-        flex-direction: column; /* Los botones se apilan verticalmente */
+        flex-direction: row; /* Los botones se apilan verticalmente */
         align-items: center; /* Centra los botones */
     }
 
     nav ul li {
-        margin: 5px 0; /* Ajusta el margen entre los botones */
+        margin: 10px 10px; /* Ajusta el margen entre los botones */
     }
 
     nav ul li a {
@@ -317,7 +317,7 @@ input[type="submit"]:hover {
     }
 
     nav ul li {
-        margin: 0 15px; /* Ajusta el margen entre los botones */
+        margin: 15px 15px; /* Ajusta el margen entre los botones */
     }
 
     nav ul li a {
